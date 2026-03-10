@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/neon-movie-explorer/">
         <Routes>
           <Route path="/" element={<MainPage/>}/>
           <Route path="/movies/:id" element={<SingleMovie/>}/>
